@@ -6,6 +6,9 @@ az container create \
   --resource-group rm56300-rg \
   --name rm56300-app \
   --image rm56300acr.azurecr.io/rm56300-app:latest \
+  --os-type Linux \
+  --cpu 1 \
+  --memory 1 \
   --registry-login-server rm56300acr.azurecr.io \
   --registry-username rm56300acr \
   --registry-password $ACR_PASSWORD \
