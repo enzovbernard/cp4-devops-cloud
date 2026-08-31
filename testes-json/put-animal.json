@@ -1,0 +1,12 @@
+{
+  "nmAnimal": "Thor",
+  "idade": 6,
+  "especie": "Cachorro",
+  "raca": "Labrador",
+  "sexo": "M",
+  "dtNascimento": "2020-01-10",
+  "peso": 32.5,
+  "responsavel": {
+    "idResponsavel": 1
+  }
+}

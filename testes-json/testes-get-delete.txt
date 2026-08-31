@@ -1,0 +1,38 @@
+Testes GET e DELETE — API CP4
+
+Tabela: animal
+
+GET (listar todos)
+curl -X GET http://$fqdnApp:8080/animais/todos
+
+GET (por ID)
+curl -X GET http://$fqdnApp:8080/animais/2
+
+DELETE
+curl -X DELETE http://$fqdnApp:8080/animais/2
+
+---
+
+Tabela: responsavel
+
+GET (listar todos)
+curl -X GET http://$fqdnApp:8080/responsaveis/todos
+
+GET (por ID)
+curl -X GET http://$fqdnApp:8080/responsaveis/2
+
+DELETE
+curl -X DELETE http://$fqdnApp:8080/responsaveis/2
+
+---
+
+Tabela: veterinario
+
+GET (listar todos)
+curl -X GET http://$fqdnApp:8080/veterinarios/todos
+
+GET (por ID)
+curl -X GET http://$fqdnApp:8080/veterinarios/2
+
+DELETE
+curl -X DELETE http://$fqdnApp:8080/veterinarios/2

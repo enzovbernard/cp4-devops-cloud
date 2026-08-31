@@ -1,0 +1,9 @@
+{
+  "nmAnimal": "Rex",
+  "idade": 5,
+  "especie": "Cachorro",
+  "raca": "Labrador",
+  "sexo": "M",
+  "dtNascimento": "2020-01-10",
+  "peso": 30.5
+}
