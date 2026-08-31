@@ -1,0 +1,2 @@
+FROM gvenzl/oracle-free:latest
+COPY script.sql /container-entrypoint-initdb.d/
