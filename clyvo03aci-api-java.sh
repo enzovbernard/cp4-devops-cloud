@@ -14,4 +14,5 @@ az container create \
   --registry-password $ACR_PASSWORD \
   --dns-name-label rm56300-app-dns \
   --ports 8080 \
-  --environment-variables SPRING_DATASOURCE_URL="jdbc:oracle:thin:@$DB_FQDN:1521/FREEPDB1" SPRING_DATASOURCE_USERNAME="system"
+  --environment-variables SPRING_DATASOURCE_URL="jdbc:oracle:thin:@$DB_FQDN:1521/FREEPDB1" SPRING_DATASOURCE_USERNAME="system" \
+  --secure-environment-variables SPRING_DATASOURCE_PASSWORD="SenhaForte#2026"
