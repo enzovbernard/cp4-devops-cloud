@@ -3,36 +3,36 @@ Testes GET e DELETE — API CP4
 Tabela: animal
 
 GET (listar todos)
-curl -X GET http://$fqdnApp:8080/animais/todos
+curl -X GET http://rm56300-app-dns.brazilsouth.azurecontainer.io/animais/todos
 
 GET (por ID)
-curl -X GET http://$fqdnApp:8080/animais/2
+curl -X GET http://rm56300-app-dns.brazilsouth.azurecontainer.io/animais/2
 
 DELETE
-curl -X DELETE http://$fqdnApp:8080/animais/2
+curl -X DELETE http://rm56300-app-dns.brazilsouth.azurecontainer.io/animais/2
 
 ---
 
 Tabela: responsavel
 
 GET (listar todos)
-curl -X GET http://$fqdnApp:8080/responsaveis/todos
+curl -X GET http://rm56300-app-dns.brazilsouth.azurecontainer.io/responsaveis/todos
 
 GET (por ID)
-curl -X GET http://$fqdnApp:8080/responsaveis/2
+curl -X GET http://rm56300-app-dns.brazilsouth.azurecontainer.io/responsaveis/2
 
 DELETE
-curl -X DELETE http://$fqdnApp:8080/responsaveis/2
+curl -X DELETE http://rm56300-app-dns.brazilsouth.azurecontainer.io/responsaveis/2
 
 ---
 
 Tabela: veterinario
 
 GET (listar todos)
-curl -X GET http://$fqdnApp:8080/veterinarios/todos
+curl -X GET http://rm56300-app-dns.brazilsouth.azurecontainer.io/veterinarios/todos
 
 GET (por ID)
-curl -X GET http://$fqdnApp:8080/veterinarios/2
+curl -X GET http://rm56300-app-dns.brazilsouth.azurecontainer.io/veterinarios/2
 
 DELETE
-curl -X DELETE http://$fqdnApp:8080/veterinarios/2
+curl -X DELETE http://rm56300-app-dns.brazilsouth.azurecontainer.io/veterinarios/2
